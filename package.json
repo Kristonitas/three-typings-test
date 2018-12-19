@@ -1,0 +1,11 @@
+{
+  "name": "three-test",
+  "version": "1.0.0",
+  "description": "A project to test three.js typings",
+  "main": "index.ts",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/three": "^0.93.13"
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"outDir": "./build/js/",
+		"noImplicitAny": true,
+		"module": "es6",
+		"target": "es6",
+		"allowJs": true,
+		"skipLibCheck": true,
+		"lib": ["es2016", "dom"],
+		"typeRoots": ["node_modules/@types/"],
+		"types": ["three"]
+	},
+	"files": ["typings/global.d.ts"],
+	"include": ["src/**/*.ts", "typings/**/*.ts"],
+	"exclude": ["node_modules/**/*", "dist/**/*", "libs/**/*"],
+}
